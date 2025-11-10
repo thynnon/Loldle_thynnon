@@ -147,7 +147,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Amumu.png"
   },
   {
-    "id": "6",
+    "id": "8",
     "nom": "Anivia",
     "roles": ["Mage", "Support"],
     "lane": "Mid",
@@ -168,7 +168,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Anivia.png"
   },
   {
-    "id": "7",
+    "id": "9",
     "nom": "Annie",
     "roles": ["Mage"],
     "lane": "Mid",
@@ -189,7 +189,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Annie.png"
   },
   {
-    "id": "8",
+    "id": "10",
     "nom": "Aphelios",
     "roles": ["Tireur"],
     "lane": "Bot",
@@ -210,7 +210,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aphelios.png"
   },
   {
-    "id": "9",
+    "id": "11",
     "nom": "Ashe",
     "roles": ["Tireur", "Support"],
     "lane": "Bot",
@@ -231,7 +231,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ashe.png"
   },
   {
-    "id": "10",
+    "id": "11",
     "nom": "Aurelion Sol",
     "roles": ["Mage"],
     "lane": "Mid",
@@ -252,7 +252,28 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/AurelionSol.png"
   },
   {
-    "id": "11",
+    "id": "12",
+    "nom": "Aurora",
+    "roles": ["Mage", "Support"],
+    "lane": ["Mid", "Top"],
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2024,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 550,
+      "AD": 52,
+      "AS": 0.63,
+      "Armure": 20,
+      "RM": 35,
+      "MS": 330
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aurora.png"
+  },
+  {
+    "id": "13",
     "nom": "Azir",
     "roles": ["Mage", "Combattant"],
     "lane": "Mid",
@@ -273,7 +294,7 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Azir.png"
   },
   {
-    "id": "12",
+    "id": "14",
     "nom": "Bard",
     "roles": ["Support", "Mage"],
     "lane": "Support",
@@ -292,5 +313,174 @@
       "MS": 330
     },
     "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Bard.png"
+  },
+  {
+    "id": "15",
+    "nom": "Bel'Veth",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Être du Néant",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2022,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 650,
+      "AD": 59,
+      "AS": 0.67,
+      "Armure": 36,
+      "RM": 32,
+      "MS": 335
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Belveth.png"
+  },
+  {
+    "id": "16",
+    "nom": "Blitzcrank",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Robot",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 605,
+      "AD": 62,
+      "AS": 0.625,
+      "Armure": 38,
+      "RM": 32,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Blitzcrank.png"
+  },
+  {
+    "id": "17",
+    "nom": "Brand",
+    "roles": ["Mage"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Élémentaire",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2011,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 540,
+      "AD": 57,
+      "AS": 0.625,
+      "Armure": 20,
+      "RM": 30,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Brand.png"
+  },
+  {
+    "id": "18",
+    "nom": "Braum",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Yeti",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2014,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 700,
+      "AD": 55,
+      "AS": 0.644,
+      "Armure": 40,
+      "RM": 32,
+      "MS": 335
+  },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Braum.png"
+  },
+  {
+    "id": "19",
+    "nom": "Briar",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ixtal",
+    "annee": 2024,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 660,
+      "AD": 60,
+      "AS": 0.66,
+      "Armure": 34,
+      "RM": 30,
+      "MS": 340
+  },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Briar.png"
+  },
+  {
+    "id": "20",
+    "nom": "Caitlyn",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2010,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 580,
+      "AD": 62,
+      "AS": 0.656,
+      "Armure": 28,
+      "RM": 30,
+      "MS": 325
+  },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Caitlyn.png"
+  },
+  {
+    "id": "21",
+    "nom": "Camille",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine augmentée",
+    "range": "Corps à corps",
+    "region": "Piltover",
+    "annee": 2016,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 650,
+      "AD": 64,
+      "AS": 0.665,
+      "Armure": 36,
+      "RM": 32,
+      "MS": 340
+  },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Camille.png"
+  },
+  {
+    "id ": "22",
+    "nom": "Cassiopeia",
+    "roles": ["Mage"],
+    "lane": ["Mid", "Top"],
+    "genre": "Féminin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2010,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 570,
+      "AD": 58,
+      "AS": 0.625,
+      "Armure": 22,
+      "RM": 30,
+      "MS": 325
+  },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Cassiopeia.png"
   }
+
 ]
