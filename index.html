@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOLDLE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <img src="/img/logo.png" alt="Logo LOLDLE" class="logo">
+      <h1 class="title">LOLDLE</h1>
+    </div>
+        <p class="subtitle"><a href="roadmap.html" class="no-underline">Devine le champion de League of Legends</a></p>
+  </header>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="attempts-badge">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"></circle>
+        <circle cx="12" cy="12" r="6"></circle>
+        <circle cx="12" cy="12" r="2"></circle>
+      </svg>
+      <span id="attemptsDisplay">Tentatives: 0</span>
+    </div>
+    <!-- Game Modes Bar -->
+<nav class="modes-bar">
+  <button class="mode active">Devinette</button>
+  <button class="mode">Citations</button>
+  <button class="mode">Splash Art</button>
+  <button class="mode">Spells</button>
+  <button class="mode">Items</button>
+  <button class="mode">Sudoku</button>
+</nav>
+
+    <div class="actions">
+      <button class="btn" id="hintBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+          <path d="M2 17l10 5 10-5"></path>
+          <path d="M2 12l10 5 10-5"></path>
+        </svg>
+        <span id="hintBtnText">Indice (3)</span>
+      </button>
+      <button class="btn" id="statsBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+          <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+          <path d="M4 22h16"></path>
+          <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+          <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+          <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+        </svg>
+        Stats
+      </button>
+      <button class="btn" id="newGameBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+        Nouveau
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Game -->
+  <main class="main">
+    <div class="game-container">
+      <!-- Hints Section -->
+      <div class="hints-section hidden" id="hintsSection">
+        <div class="hints-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+          Indices débloqués:
+        </div>
+        <div class="hints-list" id="hintsList"></div>
+      </div>
+
+      <!-- Search Container -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="guessInput" 
+          class="search-input"
+          placeholder="🔍 Tape le nom d'un champion..." 
+          autocomplete="off"
+        >
+        <div id="suggestions" class="suggestions hidden"></div>
+      </div>
+
+      <!-- Guesses Section -->
+      <div class="guesses-section">
+        <div class="header-row">
+          <div class="header-cell">Champion</div>
+          <div class="header-cell">Genre</div>
+          <div class="header-cell">Rôle</div>
+          <div class="header-cell">Espèce</div>
+          <div class="header-cell">Ressource</div>
+          <div class="header-cell">Portée</div>
+          <div class="header-cell">Région</div>
+        </div>
+        <div id="guessesHistory"></div>
+      </div>
+
+      <!-- Win Message -->
+      <div id="winMessage" class="win-message hidden"></div>
+    </div>
+  </main>
+
+  <!-- Celebration Effect -->
+  <div id="celebration" class="celebration hidden">🎊</div>
+
+  <!-- Stats Modal -->
+  <div id="statsModal" class="stats-modal hidden">
+    <div class="stats-content">
+      <div class="stats-header">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+          <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+          <path d="M4 22h16"></path>
+          <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+          <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+          <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+        </svg>
+        Statistiques
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value" id="statsPlayed">0</div>
+          <div class="stat-label">Parties</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statsWon">0</div>
+          <div class="stat-label">Victoires</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statsStreak">0</div>
+          <div class="stat-label">Série</div>
+        </div>
+      </div>
+      <div class="win-rate">
+        Taux de réussite: <span id="winRate">0%</span>
+      </div>
+      <button class="btn" id="closeStatsBtn" style="width: 100%; justify-content: center;">
+        Fermer
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Créé par Luck Cul | Inspiré de LoLdle | League of Legends © Riot Games</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "1",
+    "nom": "Aatrox",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Darkin",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2013,
+    "ressource": "Aucune",
+    "stats": {
+      "PV": 650,
+      "AD": 60,
+      "AS": 0.651,
+      "Armure": 38,
+      "RM": 32,
+      "MS": 345
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aatrox.png"
+  },
+  {
+    "id": "2",
+    "nom": "Ahri",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 590,
+      "AD": 53,
+      "AS": 0.668,
+      "Armure": 21,
+      "RM": 30,
+      "MS": 330
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ahri.png"
+  },
+  {
+    "id": "3",
+    "nom": "Akali",
+    "roles": ["Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2010,
+    "ressource": "Énergie",
+    "stats": {
+      "PV": 570,
+      "AD": 62,
+      "AS": 0.625,
+      "Armure": 23,
+      "RM": 37,
+      "MS": 345
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Akali.png"
+  },
+  {
+    "id": "4",
+    "nom": "Akshan",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2021,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 580,
+      "AD": 55,
+      "AS": 0.658,
+      "Armure": 28,
+      "RM": 30,
+      "MS": 335
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Akshan.png"
+  },
+  {
+    "id": "5",
+    "nom": "Alistar",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Minautore",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 685,
+      "AD": 62,
+      "AS": 0.625,
+      "Armure": 44,
+      "RM": 32,
+      "MS": 330
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Alistar.png"
+  },
+  {
+    "id": "6",
+    "nom": "Ambessa",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2024,
+    "ressource": "Énergie",
+    "stats": {
+      "PV": 700,
+      "AD": 58,
+      "AS": 0.68,
+      "Armure": 40,
+      "RM": 35,
+      "MS": 340
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ambessa.png"
+  },
+  {
+    "id": "7",
+    "nom": "Amumu",
+    "roles": ["Tank", "Mage"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 685,
+      "AD": 53,
+      "AS": 0.736,
+      "Armure": 33,
+      "RM": 32,
+      "MS": 335
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Amumu.png"
+  },
+  {
+    "id": "6",
+    "nom": "Anivia",
+    "roles": ["Mage", "Support"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Créature mythique",
+    "range": "À distance",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 540,
+      "AD": 51,
+      "AS": 0.625,
+      "Armure": 21,
+      "RM": 40,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Anivia.png"
+  },
+  {
+    "id": "7",
+    "nom": "Annie",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 524,
+      "AD": 50,
+      "AS": 0.579,
+      "Armure": 19,
+      "RM": 30,
+      "MS": 335
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Annie.png"
+  },
+  {
+    "id": "8",
+    "nom": "Aphelios",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Targon",
+    "annee": 2019,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 580,
+      "AD": 55,
+      "AS": 0.64,
+      "Armure": 28,
+      "RM": 30,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aphelios.png"
+  },
+  {
+    "id": "9",
+    "nom": "Ashe",
+    "roles": ["Tireur", "Support"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 570,
+      "AD": 61,
+      "AS": 0.658,
+      "Armure": 26,
+      "RM": 30,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ashe.png"
+  },
+  {
+    "id": "10",
+    "nom": "Aurelion Sol",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Dragon céleste",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2016,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 575,
+      "AD": 55,
+      "AS": 0.625,
+      "Armure": 22,
+      "RM": 30,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/AurelionSol.png"
+  },
+  {
+    "id": "11",
+    "nom": "Azir",
+    "roles": ["Mage", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2014,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 550,
+      "AD": 54,
+      "AS": 0.625,
+      "Armure": 19,
+      "RM": 30,
+      "MS": 325
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Azir.png"
+  },
+  {
+    "id": "12",
+    "nom": "Bard",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Céleste",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2015,
+    "ressource": "Mana",
+    "stats": {
+      "PV": 540,
+      "AD": 50,
+      "AS": 0.625,
+      "Armure": 25,
+      "RM": 30,
+      "MS": 330
+    },
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Bard.png"
+  }
+]

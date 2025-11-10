@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOLDLE Roadmap</title>
+  <style>
+    @font-face {
+      font-family: 'Friz Quadrata';
+      src: url('fonts/friz-quadrata-regular-os-5870333951e7c.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Friz Quadrata';
+      src: url('fonts/friz-quadrata-bold-italic-os-5870341205e0f.woff') format('woff');
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    /* Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --gold-primary: #c8aa6e;
+      --gold-light: #f0e6d2;
+      --gold-dark: #785a28;
+      --blue-primary: #0ac8b9;
+      --blue-dark: #0397ab;
+      --bg-dark: #010a13;
+      --bg-darker: #000000;
+      --bg-card: #091428;
+      --border-gold: #463714;
+      --text-light: #a09b8c;
+      --text-white: #f0e6d2;
+    }
+    html, body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      font-family: 'Friz Quadrata', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a1428 0%, #1a1a2e 50%, #16213e 100%);
+      color: var(--text-white);
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        radial-gradient(ellipse at 20% 30%, rgba(10,200,185,0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(200,170,110,0.08) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    /* Header */
+    .header {
+      padding: 2rem;
+      text-align: center;
+      background: linear-gradient(180deg, rgba(1,10,19,0.95) 0%, rgba(9,20,40,0.9) 100%);
+      border-bottom: 3px solid var(--gold-primary);
+    }
+    .header .title {
+      font-size: 3rem;
+      color: var(--gold-primary);
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-shadow: 0 0 30px rgba(200,170,110,0.8);
+      margin-bottom: 0.5rem;
+    }
+    .header .subtitle {
+      font-size: 1.2rem;
+      color: var(--blue-primary);
+    }
+
+    /* Roadmap */
+    .roadmap-container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+      flex: 1;
+    }
+    .roadmap-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: 'Friz Quadrata', serif;
+      color: var(--gold-primary);
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+    .roadmap-phase {
+      background: rgba(1, 10, 19, 0.85);
+      border: 2px solid var(--gold-dark);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .roadmap-phase:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(200,170,110,0.5);
+    }
+    .roadmap-phase h3 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .roadmap-phase ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    .roadmap-phase li {
+      margin-bottom: 0.5rem;
+      color: var(--text-white);
+      font-size: 0.95rem;
+    }
+
+    /* Couleurs par phase */
+    .roadmap-phase.live h3 { color: var(--gold-primary); }
+    .roadmap-phase.short-term h3 { color: var(--blue-primary); }
+    .roadmap-phase.mid-term h3 { color: #ffb347; }
+    .roadmap-phase.long-term h3 { color: #8c00ff; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: linear-gradient(180deg, rgba(9,20,40,0.9) 0%, rgba(1,10,19,0.95) 100%);
+      color: var(--text-light);
+      border-top: 2px solid var(--gold-dark);
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 968px) {
+      .roadmap { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .roadmap { grid-template-columns: 1fr; }
+    }
+
+    .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark));
+  border: 2px solid var(--gold-primary);
+  border-radius: 8px;
+  color: var(--bg-dark);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  max-width: 100px;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+html, body {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="btn">Retour</a>
+    <div class="title">LOLDLE Roadmap</div>
+    <div class="subtitle">Plan de développement et évolutions futures</div>
+  </header>
+
+  <main class="roadmap-container">
+    <h2 class="roadmap-title">Roadmap</h2>
+    <div class="roadmap">
+      <div class="roadmap-phase live">
+        <h3>Live</h3>
+        <ul>
+        <li>Version test du jeu disponible</li>
+          <li>Système de recherche des champions fonctionnel</li>
+          <li>Suggestions dynamiques lors de la saisie</li>
+          <li>Affichage des tentatives et suivi des indices</li>
+          <li>Affichage des résultats dans la grille</li>
+          <li>Messages de victoire avec effets visuels</li>
+          <li>Stats et suivi des performances semi-fonctionnelle</li>
+        </ul>
+      </div>
+      <div class="roadmap-phase short-term">
+        <h3>Court Terme</h3>
+        <ul>
+          <li>Base de donnée des champions complétés</li>
+          <li>Corrections de bugs et optimisations</li>
+          <li>Ajout d'animations et transitions fluides</li>
+            <li>Amélioration de l'interface utilisateur</li>
+            <li>Ajout du second mode de jeu</li>
+        </ul>
+      </div>
+      <div class="roadmap-phase mid-term">
+        <h3>Moyen Terme</h3>
+        <ul>
+          <li>Thèmes et personnalisations du jeu</li>
+          <li>Ajout d'un menu paramètres</li>
+          <li>Intégration de sons et musiques en cas de victoire</li>
+        </ul>
+      </div>
+      <div class="roadmap-phase long-term">
+        <h3>Long Terme</h3>
+        <ul>
+          <li>Application mobile</li>
+          <li>Expansions de contenu et nouveaux modes de jeu</li>
+          <li>Intégration des publicités</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 LOLDLE. Tous droits réservés.
+  </footer>
+</body>
+</html>
