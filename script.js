@@ -5,7 +5,7 @@ let guessedChampions = [];
 let gameOver = false;
 let revealedHints = {
   genre: false,
-  region: false,
+  spell: false,
   splash: false
 };
 let stats = {
@@ -62,7 +62,7 @@ function startNewGame() {
   gameOver = false;
   revealedHints = {
     genre: false,
-    region: false,
+    spell: false,
     splash: false
   };
   
@@ -87,9 +87,9 @@ function createHintCards() {
       </div>
     </div>
     
-    <div class="hint-card" data-hint="region">
-      <span class="hint-card-icon">🗺️</span>
-      <div class="hint-card-label">Région</div>
+    <div class="hint-card hint-card-spell" data-hint="spell">
+      <span class="hint-card-icon">✨</span>
+      <div class="hint-card-label">Sort aléatoire</div>
       <div class="hint-card-value">
         <span class="hint-card-lock">🔒</span>
       </div>
@@ -125,8 +125,24 @@ function revealHint(hintType, cardElement) {
     case 'genre':
       hintValue = championMystere.genre;
       break;
-    case 'region':
-      hintValue = championMystere.region;
+    case 'spell':
+      if (championMystere.spells) {
+        // Choisir un sort aléatoire parmi passive, q, w, e, r
+        const spellKeys = ['passive', 'q', 'w', 'e', 'r'];
+        const randomSpell = spellKeys[Math.floor(Math.random() * spellKeys.length)];
+        const spell = championMystere.spells[randomSpell];
+        
+        if (spell && spell.image && spell.nom) {
+          hintValue = `
+            <img src="${spell.image}" alt="${spell.nom}" class="hint-spell-img">
+            <div class="hint-spell-name">${spell.nom}</div>
+          `;
+        } else {
+          hintValue = 'Non disponible';
+        }
+      } else {
+        hintValue = 'Non disponible';
+      }
       break;
     case 'splash':
       if (championMystere.splash) {
@@ -314,7 +330,7 @@ function addGuessRow(champion) {
     // Animation en cascade avec délai
     setTimeout(() => {
       cellDiv.classList.add('animate');
-    }, index * 350); // 100ms de délai entre chaque cellule
+    }, index * 100); // 100ms de délai entre chaque cellule
   });
 
   guessesHistory.insertBefore(row, guessesHistory.firstChild);

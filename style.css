@@ -182,16 +182,13 @@ body {
   width: 100%;
 }
 
-.game-container {
-  background: linear-gradient(135deg, rgba(9, 20, 40, 0.98), rgba(1, 10, 19, 0.95));
-  padding: 1rem;
-  border-radius: 12px;
-  border: 3px solid var(--gold-primary);
-}
-
-/* Hints Section - New Card Style */
+/* Hints Section - Outside game container */
 .hints-section {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, rgba(9, 20, 40, 0.95), rgba(1, 10, 19, 0.9));
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 2px solid var(--gold-dark);
 }
 
 .hints-title {
@@ -199,9 +196,9 @@ body {
   align-items: center;
   gap: 0.5rem;
   color: var(--gold-primary);
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   text-align: center;
   justify-content: center;
 }
@@ -209,7 +206,9 @@ body {
 .hints-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.8rem;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .hint-card {
@@ -270,19 +269,43 @@ body {
 }
 
 .hint-card-splash.revealed {
-  min-height: 150px;
+  min-height: auto;
 }
 
 .hint-splash-img {
   width: 100%;
-  height: 120px;
-  object-fit: cover;
-  object-position: center top;
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  object-position: center;
   border-radius: 6px;
   margin-top: 0.3rem;
   border: 2px solid var(--gold-primary);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   display: block;
+}
+
+.hint-card-spell.revealed {
+  min-height: auto;
+}
+
+.hint-spell-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin: 0.5rem auto 0.3rem;
+  border: 2px solid var(--gold-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+.hint-spell-name {
+  font-size: 0.8rem;
+  color: var(--text-white);
+  margin-top: 0.3rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 .hint-card.revealed .hint-card-value {
@@ -291,6 +314,13 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.game-container {
+  background: linear-gradient(135deg, rgba(9, 20, 40, 0.98), rgba(1, 10, 19, 0.95));
+  padding: 1rem;
+  border-radius: 12px;
+  border: 3px solid var(--gold-primary);
 }
 
 /* Search Container */
@@ -462,7 +492,7 @@ body {
 }
 
 .cell-value {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 600;
   word-break: break-word;
   line-height: 1.1;
