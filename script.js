@@ -3,7 +3,11 @@ let champions = [];
 let championMystere = null;
 let guessedChampions = [];
 let gameOver = false;
-let hintsUsed = 0;
+let revealedHints = {
+  genre: false,
+  region: false,
+  splash: false
+};
 let stats = {
   played: 0,
   won: 0,
@@ -19,8 +23,6 @@ const winMessage = document.getElementById('winMessage');
 const celebration = document.getElementById('celebration');
 const hintsSection = document.getElementById('hintsSection');
 const hintsList = document.getElementById('hintsList');
-const hintBtn = document.getElementById('hintBtn');
-const hintBtnText = document.getElementById('hintBtnText');
 const statsBtn = document.getElementById('statsBtn');
 const statsModal = document.getElementById('statsModal');
 const closeStatsBtn = document.getElementById('closeStatsBtn');
@@ -34,16 +36,11 @@ async function chargerChampions() {
     init();
   } catch (error) {
     console.error('Erreur lors du chargement des champions:', error);
-    // Champions de secours si le fichier n'existe pas
+    // Champions de secours
     champions = [
-      { nom: "Ahri", genre: "Femme", roles: ["Mage", "Assassin"], especes: "Vastaya", ressource: "Mana", range: "Ranged", region: "Ionia", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Ahri.png" },
-      { nom: "Yasuo", genre: "Homme", roles: ["Fighter", "Assassin"], especes: "Humain", ressource: "Flow", range: "Melee", region: "Ionia", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Yasuo.png" },
-      { nom: "Lux", genre: "Femme", roles: ["Mage", "Support"], especes: "Humain", ressource: "Mana", range: "Ranged", region: "Demacia", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lux.png" },
-      { nom: "Darius", genre: "Homme", roles: ["Fighter", "Tank"], especes: "Humain", ressource: "Mana", range: "Melee", region: "Noxus", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Darius.png" },
-      { nom: "Jinx", genre: "Femme", roles: ["Marksman"], especes: "Humain", ressource: "Mana", range: "Ranged", region: "Zaun", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Jinx.png" },
-      { nom: "Thresh", genre: "Homme", roles: ["Support", "Fighter"], especes: "Undead", ressource: "Mana", range: "Ranged", region: "Shadow Isles", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Thresh.png" },
-      { nom: "Zed", genre: "Homme", roles: ["Assassin"], especes: "Humain", ressource: "Energy", range: "Melee", region: "Ionia", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Zed.png" },
-      { nom: "Leona", genre: "Femme", roles: ["Tank", "Support"], especes: "Humain", ressource: "Mana", range: "Melee", region: "Targon", icon: "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Leona.png" }
+      { nom: "Ahri", genre: "Féminin", roles: ["Mage", "Assassin"], lane: "Mid", especes: "Vastaya", ressource: "Mana", range: "À distance", region: "Ionia", icon: "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ahri.png" },
+      { nom: "Yasuo", genre: "Masculin", roles: ["Combattant", "Assassin"], lane: "Mid", especes: "Humaine", ressource: "Flow", range: "Corps à corps", region: "Ionia", icon: "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Yasuo.png" },
+      { nom: "Lux", genre: "Féminin", roles: ["Mage", "Support"], lane: "Mid", especes: "Humaine", ressource: "Mana", range: "À distance", region: "Demacia", icon: "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lux.png" }
     ];
     init();
   }
@@ -63,18 +60,85 @@ function startNewGame() {
   
   guessedChampions = [];
   gameOver = false;
-  hintsUsed = 0;
+  revealedHints = {
+    genre: false,
+    region: false,
+    splash: false
+  };
   
   guessesHistory.innerHTML = '';
   guessInput.value = '';
   guessInput.disabled = false;
   winMessage.classList.add('hidden');
-  hintsSection.classList.add('hidden');
-  hintsList.innerHTML = '';
   suggestions.classList.add('hidden');
   
   updateAttempts();
-  updateHintButton();
+  createHintCards();
+}
+
+// Créer les cartes d'indices
+function createHintCards() {
+  hintsList.innerHTML = `
+    <div class="hint-card" data-hint="genre">
+      <span class="hint-card-icon">👤</span>
+      <div class="hint-card-label">Genre</div>
+      <div class="hint-card-value">
+        <span class="hint-card-lock">🔒</span>
+      </div>
+    </div>
+    
+    <div class="hint-card" data-hint="region">
+      <span class="hint-card-icon">🗺️</span>
+      <div class="hint-card-label">Région</div>
+      <div class="hint-card-value">
+        <span class="hint-card-lock">🔒</span>
+      </div>
+    </div>
+    
+    <div class="hint-card hint-card-splash" data-hint="splash">
+      <span class="hint-card-icon">🖼️</span>
+      <div class="hint-card-label">Splash Art</div>
+      <div class="hint-card-value">
+        <span class="hint-card-lock">🔒</span>
+      </div>
+    </div>
+  `;
+  
+  hintsSection.classList.remove('hidden');
+  
+  // Ajouter les événements de clic sur les cartes
+  document.querySelectorAll('.hint-card').forEach(card => {
+    card.addEventListener('click', () => {
+      revealHint(card.dataset.hint, card);
+    });
+  });
+}
+
+// Révéler un indice
+function revealHint(hintType, cardElement) {
+  if (gameOver || cardElement.classList.contains('revealed')) return;
+  
+  const valueDiv = cardElement.querySelector('.hint-card-value');
+  
+  let hintValue = '';
+  switch(hintType) {
+    case 'genre':
+      hintValue = championMystere.genre;
+      break;
+    case 'region':
+      hintValue = championMystere.region;
+      break;
+    case 'splash':
+      if (championMystere.splash) {
+        hintValue = `<img src="${championMystere.splash}" alt="Splash Art" class="hint-splash-img">`;
+      } else {
+        hintValue = 'Non disponible';
+      }
+      break;
+  }
+  
+  valueDiv.innerHTML = hintValue;
+  cardElement.classList.add('revealed');
 }
 
 // Configurer les écouteurs d'événements
@@ -127,9 +191,6 @@ function setupEventListeners() {
     }
   });
 
-  // Bouton d'indice
-  hintBtn.addEventListener('click', showHint);
-
   // Bouton stats
   statsBtn.addEventListener('click', () => {
     displayStats();
@@ -175,10 +236,39 @@ function updateAttempts() {
   attemptsDisplay.textContent = `Tentatives: ${guessedChampions.length}`;
 }
 
+// Normaliser les lanes pour la comparaison
+function normalizeLanes(lane) {
+  if (Array.isArray(lane)) return lane;
+  return [lane];
+}
+
+// Comparer les lanes
+function compareLanes(champLanes, mystereLanes) {
+  const champArray = normalizeLanes(champLanes);
+  const mystereArray = normalizeLanes(mystereLanes);
+  
+  // Si toutes les lanes correspondent exactement
+  if (champArray.length === mystereArray.length && 
+      champArray.every(l => mystereArray.includes(l))) {
+    return 'correct';
+  }
+  
+  // Si au moins une lane correspond
+  if (champArray.some(l => mystereArray.includes(l))) {
+    return 'partial';
+  }
+  
+  return 'incorrect';
+}
+
 // Ajouter une ligne de tentative
 function addGuessRow(champion) {
   const row = document.createElement('div');
   row.className = 'guess-row';
+
+  // Préparer l'affichage des lanes
+  const champLanes = normalizeLanes(champion.lane);
+  const laneDisplay = champLanes.join(' / ');
 
   const cells = [
     { 
@@ -190,8 +280,8 @@ function addGuessRow(champion) {
       class: champion.genre === championMystere.genre ? 'correct' : 'incorrect'
     },
     { 
-      html: `<div class="cell-value">${champion.roles.join(', ')}</div>`, 
-      class: getRolesClass(champion.roles, championMystere.roles)
+      html: `<div class="cell-value">${laneDisplay}</div>`, 
+      class: compareLanes(champion.lane, championMystere.lane)
     },
     { 
       html: `<div class="cell-value">${champion.especes}</div>`, 
@@ -208,62 +298,37 @@ function addGuessRow(champion) {
     { 
       html: `<div class="cell-value">${champion.region}</div>`, 
       class: champion.region === championMystere.region ? 'correct' : 'incorrect'
+    },
+    { 
+      html: `<div class="cell-value">${champion.annee || 'N/A'}</div>`, 
+      class: champion.annee === championMystere.annee ? 'correct' : 'incorrect'
     }
   ];
 
-  cells.forEach(cell => {
+  cells.forEach((cell, index) => {
     const cellDiv = document.createElement('div');
     cellDiv.className = `guess-cell ${cell.class}`;
     cellDiv.innerHTML = cell.html;
     row.appendChild(cellDiv);
+    
+    // Animation en cascade avec délai
+    setTimeout(() => {
+      cellDiv.classList.add('animate');
+    }, index * 350); // 100ms de délai entre chaque cellule
   });
 
   guessesHistory.insertBefore(row, guessesHistory.firstChild);
-}
-
-// Déterminer la classe pour les rôles
-function getRolesClass(champRoles, mystereRoles) {
-  const hasCommon = champRoles.some(r => mystereRoles.includes(r));
-  const allMatch = champRoles.length === mystereRoles.length && 
-                  champRoles.every(r => mystereRoles.includes(r));
-  return allMatch ? 'correct' : hasCommon ? 'partial' : 'incorrect';
-}
-
-// Afficher un indice
-function showHint() {
-  if (hintsUsed >= 3 || gameOver) return;
-
-  const hints = [
-    `Genre: ${championMystere.genre}`,
-    `Région: ${championMystere.region}`,
-    `Portée: ${championMystere.range}`
-  ];
-
-  const hintDiv = document.createElement('div');
-  hintDiv.className = 'hint-item';
-  hintDiv.textContent = hints[hintsUsed];
-  hintsList.appendChild(hintDiv);
-
-  hintsSection.classList.remove('hidden');
-  hintsUsed++;
-  updateHintButton();
-}
-
-// Mettre à jour le bouton d'indice
-function updateHintButton() {
-  hintBtnText.textContent = `Indice (${3 - hintsUsed})`;
-  if (hintsUsed >= 3 || gameOver) {
-    hintBtn.disabled = true;
-  } else {
-    hintBtn.disabled = false;
-  }
 }
 
 // Afficher le message de victoire
 function showWinMessage() {
   gameOver = true;
   guessInput.disabled = true;
-  updateHintButton();
+  
+  // Désactiver toutes les cartes d'indices
+  document.querySelectorAll('.hint-card').forEach(card => {
+    card.classList.add('disabled');
+  });
 
   // Sauvegarder les stats
   stats.played++;
@@ -272,6 +337,9 @@ function showWinMessage() {
   saveStats();
 
   // Message de victoire
+  const mystereLanes = normalizeLanes(championMystere.lane);
+  const laneDisplay = mystereLanes.join(' / ');
+  
   winMessage.innerHTML = `
     <div style="font-size: 2rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #c8aa6e;">
@@ -289,6 +357,9 @@ function showWinMessage() {
       ${championMystere.nom}
     </div>
     <div style="font-size: 1.1rem; color: #a09b8c;">
+      ${laneDisplay} - ${championMystere.region}
+    </div>
+    <div style="font-size: 1.1rem; color: #a09b8c; margin-top: 0.5rem;">
       Trouvé en ${guessedChampions.length} tentative${guessedChampions.length > 1 ? 's' : ''} !
     </div>
   `;
