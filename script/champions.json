@@ -1,0 +1,3804 @@
+[
+{
+  "id": "1",
+  "nom": "Aatrox",
+  "roles": ["Combattant"],
+  "lane": "Top",
+  "genre": "Masculin",
+  "especes": "Darkin",
+  "range": "Corps à corps",
+  "region": "Shurima",
+  "annee": 2013,
+  "ressource": "Aucune",
+  "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aatrox.png",
+  "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+  "spells": {
+    "passive": {
+      "nom": "Posture du massacreur",
+      "description": "Aatrox inflige périodiquement des dégâts physiques supplémentaires et se soigne lorsqu'il attaque.",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Aatrox_Passive.png"
+    },
+    "q": {
+      "nom": "L'Épée des Darkin",
+      "description": "Aatrox abat son épée jusqu'à trois fois, chaque coup infligeant des dégâts physiques dans une zone. Le troisième coup projette les ennemis en l'air.",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AatroxQ.png"
+    },
+    "w": {
+      "nom": "Chaînes infernales",
+      "description": "Aatrox frappe le sol, infligeant des dégâts et enchaînant le premier champion ou grand monstre touché. Si la cible reste dans la zone, elle est ramenée au centre et subit à nouveau des dégâts.",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AatroxW.png"
+    },
+    "e": {
+      "nom": "Ruée obscure",
+      "description": "Aatrox se rue dans une direction, gagnant un bonus de vol de vie. Peut être utilisé pendant d'autres sorts.",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AatroxE.png"
+    },
+    "r": {
+      "nom": "Destructeur de mondes",
+      "description": "Aatrox libère sa vraie forme démoniaque, augmentant sa taille, sa vitesse de déplacement, ses dégâts et sa régénération. Tuer ou assister prolonge la durée de la transformation.",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AatroxR.png"
+    }
+  },
+  "citations": [
+    "La guerre, c’est ma vie. Et la mort, mon plus fidèle compagnon.",
+    "Je suis la fin. Je suis le commencement. Je suis la guerre éternelle.",
+    "Ils m’ont emprisonné, mais ils ne m’ont jamais vaincu.",
+    "Chaque bataille me rapproche de la rédemption… ou de l’oubli.",
+    "Aucune épée ne peut me tuer, car je suis l’épée."
+  ]
+},
+  {
+    "id": "2",
+    "nom": "Ahri",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ahri.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Vol essentiel",
+        "description": "Ahri récupère des points de vie en fonction des dégâts magiques qu'elle inflige avec ses compétences.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ahri_SoulEater2.png"
+      },
+      "q": {
+        "nom": "Orbe d'illusion",
+        "description": "Ahri lance un orbe qui inflige des dégâts magiques à l'aller et au retour.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AhriQ.png"
+      },
+      "w": {
+        "nom": "Lucioles",
+        "description": "Ahri libère trois lucioles qui recherchent les ennemis proches, infligeant des dégâts magiques.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AhriW.png"
+      },
+      "e": {
+        "nom": "Charme",
+        "description": "Ahri lance un baiser qui charme le premier ennemi touché, le forçant à marcher vers elle et augmentant les dégâts qu'il subit d'Ahri.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AhriE.png"
+      },
+      "r": {
+        "nom": "Assaut spirituel",
+        "description": "Ahri se téléporte vers une position ciblée et lance trois vagues d'énergie qui infligent des dégâts magiques aux ennemis proches.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AhriR.png"
+      }
+    },
+    "citations": [
+      "La magie est un art, et je suis son chef-d'œuvre.",
+      "Chaque âme que je touche m'approche de ma véritable nature.",
+      "Je danse entre les ombres et la lumière, cherchant mon propre équilibre.",
+      "Le pouvoir est une tentation irrésistible, mais à quel prix ?",
+      "Je suis Ahri, la renarde aux neuf queues, et mon histoire ne fait que commencer."
+    ]
+  },
+  {
+    "id": "3",
+    "nom": "Akali",
+    "roles": ["Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2010,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Akali.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Marque d'assassin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Akali_Passive.png"
+      },
+      "q": {
+        "nom": "Vague de kunais",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkaliQ.png"
+      },
+      "w": {
+        "nom": "Linceul nébuleux",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkaliW.png"
+      },
+      "e": {
+        "nom": "Lancer acrobatique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkaliE.png"
+      },
+      "r": {
+        "nom": "Maîtrise absolue",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkaliR.png"
+      }
+    },
+    "citations": [
+      "Aucune épée ne peut me tuer, car je suis l’épée.",
+      "Aucune épée ne peut me tuer, car je suis l’épée.",
+      "Aucune épée ne peut me tuer, car je suis l’épée.",
+      "Aucune épée ne peut me tuer, car je suis l’épée.",
+      "Aucune épée ne peut me tuer, car je suis l’épée."
+    ]
+
+  },
+  {
+    "id": "4",
+    "nom": "Akshan",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2021,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Akshan.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
+    "spells": {
+    "passive": {
+        "nom": "Fourberie",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Akshan_P.png"
+      },
+      "q": {
+        "nom": "Vengerang",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkshanQ.png"
+      },
+      "w": {
+        "nom": "Cavalier Seul",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkshanW.png"
+      },
+      "e": {
+        "nom": "Envolée héroïque",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkshanE.png"
+      },
+      "r": {
+        "nom": "Bien mérité !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AkshanR.png"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "nom": "Alistar",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Minautore",
+    "range": "Corps à corps",
+    "region": ["Runeterra", "Noxus"],
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Alistar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Ciel triomphant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Alistar_Passive.png"
+      },
+      "q": {
+        "nom": "Atomisation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AlistarQ.png"
+      },
+      "w": {
+        "nom": "Coup de tête",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AlistarW.png"
+      },
+      "e": {
+        "nom": "Piétinement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AlistarE.png"
+      },
+      "r": {
+        "nom": "Volonté de fer",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AlistarR.png"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "nom": "Ambessa",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": ["Noxus", "Piltover"],
+    "annee": 2024,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ambessa.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
+    "spells":{
+      "passive": {
+        "nom": "Ruée des chiens-dragons",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ambessa_Passive.png"
+      },
+      "q": {
+        "nom": "Frappe fourbe/Frappe Fracassante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmbessaQ.png"
+      },
+      "w": {
+        "nom": "Égide dévastatrice",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmbessaW.png"
+      },
+      "e": {
+        "nom": "Lacération",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmbessaE.png"
+      },
+      "r":
+    {
+        "nom": "Exécution publique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmbessaR.png"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "nom": "Amumu",
+    "roles": ["Tank", "Support"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Mort-vivant, Yordle",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Amumu.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Toucher Maudit",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Amumu_Passive.png"
+      },
+      "q": {
+        "nom": "Jet de bandelette",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmumuQ.png"
+      },
+      "w": {
+        "nom": "Désespoir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmumuW.png"
+      },
+      "e": {
+        "nom": "Colère",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmumuE.png"
+      },
+      "r": {
+        "nom": "Malédiction d'Amumu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AmumuR.png"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "nom": "Anivia",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Dieu, Esprit",
+    "range": "À distance",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Anivia.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Renaissance",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Anivia_Passive.png"
+      },
+      "q": {
+        "nom": "Lance de glace",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AniviaQ.png"
+      },
+      "w": {
+        "nom": "Cristalisation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AniviaW.png"
+      },
+      "e": {
+        "nom": "Gelure",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AniviaE.png"
+      },
+      "r": {
+        "nom": "Tempête glaciale",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AniviaR.png"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "nom": "Annie",
+    "roles": ["Mage", "Support"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine, Né magique",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Annie.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Pyromanie",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Annie_Passive.png"
+      },
+      "q": {
+        "nom": "Désintégration",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AnnieQ.png"
+      },
+      "w": {
+        "nom": "Incinération",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AnnieW.png"
+      },
+      "e": {
+        "nom": "Bouclier en fusion",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AnnieE.png"
+      },
+      "r": {
+        "nom": "Invocation : Tibbers",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AnnieR.png"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "nom": "Aphelios",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine, Spiritualiste",
+    "range": "À distance",
+    "region": "Targon",
+    "annee": 2019,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aphelios.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Le tueur et l'oracle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Aphelios_Passive.png"
+      },
+      "q": {
+        "nom": "Compétences d'arme",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ApheliosQ.png"
+      },
+      "w": {
+        "nom": "Phase",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ApheliosW.png"
+      },
+      "e": {
+        "nom": "Système de file d'armes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ApheliosE.png"
+      },
+      "r": {
+        "nom": "Veille au clair de lune",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ApheliosR.png"
+      }
+    }
+  },
+  {
+    "id": "11",
+    "nom": "Ashe",
+    "roles": ["Tireur", "Support"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine, Né de glace",
+    "range": "À distance",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ashe.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+    "spells":{
+      "passive":{
+        "nom": "Tir givrant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ashe_Passive.png"
+      },
+      "q":{
+        "nom": "Concentration du ranger",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AsheQ.png"
+      },
+      "w":{
+        "nom": "Salve",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AsheW.png"
+      },
+      "e":{
+        "nom": "Rapace",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AsheE.png"
+      },
+      "r":{
+        "nom": "Flèche de cristal enchantée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AsheR.png"
+    }
+    }
+  },
+  {
+    "id": "12",
+    "nom": "Aurelion Sol",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Dragon céleste",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2016,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/AurelionSol.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Créateur cosmique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/AurelionSol_Passive.png"
+      },
+      "q": {
+        "nom": "Souffle de lumière",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AurelionSolQ.png"
+      },
+      "w": {
+        "nom": "Vol astral",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AurelionSolW.png"
+      },
+      "e": {
+        "nom": "Trou noir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AurelionSolE.png"
+      },
+      "r": {
+        "nom": "Étoile finale/Apocalypse",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AurelionSolR.png"
+      }
+    }
+  },
+  {
+    "id": "13",
+    "nom": "Aurora",
+    "roles": ["Mage", "Assassin"],
+    "lane": ["Mid", "Top"],
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Aurora.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
+    "spells":{
+      "passive":{
+        "nom" : "Abjuration spirituelle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/AuroraPassive.Aurora.png"
+      },
+      "q":{
+        "nom": "Maléfice",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AuroraQ.png"
+      },
+      "w":{
+        "nom": "Derrière le voile",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AuroraW.png"
+      },
+      "e":{
+        "nom": "Sortilège",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AuroraE.png"
+      },
+      "r":{
+        "nom": "Entre les mondes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AuroraR.png"
+      }
+    }
+  },
+  {
+    "id": "14",
+    "nom": "Azir",
+    "roles": ["Mage", "Tireur"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2014,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Azir.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Héritage de Shurima",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Azir_Passive.png"
+      },
+      "q": {
+        "nom": "Sable conquérants",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AzirQ.png"
+      },
+      "w": {
+        "nom": "Dresse-Toi !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AzirW.png"
+      },
+      "e": {
+        "nom": "Sables Mouvants",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AzirE.png"
+      },
+      "r": {
+        "nom": "Partition impériale",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/AzirR.png"
+      }
+    }
+  },
+  {
+    "id": "15",
+    "nom": "Bard",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Céleste",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2015,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Bard.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Instinct du voyageur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Bard_Passive.png"
+      },
+      "q": {
+        "nom": "Lien cosmique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BardQ.png"
+      },
+      "w": {
+        "nom": "Don du gardien",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BardW.png"
+      },
+      "e": {
+        "nom": "Route magique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BardE.png"
+      },
+      "r": {
+        "nom": "Destin Tempéré",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BardR.png"
+      }
+    }
+  },
+  {
+    "id": "16",
+    "nom": "Bel'Veth",
+    "roles": ["Combattant"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Être du Néant",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2022,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Belveth.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Mer de lavande",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Belveth_Passive.png"
+      },
+      "q": {
+        "nom": "Charge du néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BelvethQ.png"
+      },
+      "w": {
+        "nom": "Projection Cinglante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BelvethW.png"
+      },
+      "e": {
+        "nom": "Maelström du néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BelvethE.png"
+      },
+      "r": {
+        "nom": "Banquet infini",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BelvethR.png"
+      }
+    }
+  },
+  {
+    "id": "17",
+    "nom": "Blitzcrank",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Robot",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Blitzcrank.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Barrière de mana",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Blitzcrank_Passive.png"
+      },
+      "q": {
+        "nom": "Grappin propulsé",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BlitzcrankQ.png"
+      },
+      "w": {
+        "nom": "Surcharge",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/Overdrive.png"
+      },
+      "e": {
+        "nom": "Poing d'acier",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BlitzcrankE.png"
+      },
+      "r": {
+        "nom": "Champ de stase",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BlitzcrankR.png"
+      }
+    }
+  },
+  {
+    "id": "18",
+    "nom": "Brand",
+    "roles": ["Mage", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Élémentaire",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Brand.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Flammes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Brand_Passive.png"
+      },
+      "q": {
+        "nom": "Brûlure",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BrandQ.png"
+      },
+      "w": {
+        "nom": "Colonne de flammes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BrandW.png"
+      },
+      "e": {
+        "nom": "Conflagration",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BrandE.png"
+      },
+      "r": {
+        "nom": "Pyrolyse",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BrandR.png"
+      }
+    }
+  },
+  {
+    "id": "19",
+    "nom": "Braum",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Yeti",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2014,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Braum.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Coups étourdissants",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Braum_Passive.png"
+      },
+      "q": {
+        "nom": "Morsure de l'hiver",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BraumQ.png"
+      },
+      "w": {
+        "nom": "Bouclier humain",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BraumW.png"
+      },
+      "e": {
+        "nom": "Incassable",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BraumE.png"
+      },
+      "r": {
+        "nom": "Fissure Glaciaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BraumR.png"
+      }
+    }
+  },
+  {
+    "id": "20",
+    "nom": "Briar",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ixtal",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Briar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
+    "spells":{
+      "passive":{
+        "nom": "Malédiction écarlate",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Briar_Passive.png"
+      },
+      "q":{
+        "nom": "À table !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BriarQ.png"
+      },
+      "w":{
+        "nom": "Folie sanguinaire/Juste un croc",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BriarW.png"
+      },
+      "e":{
+        "nom": "Cri sanglant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BriarE.png"
+      },
+      "r":{
+        "nom": "Vol mortel",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/BriarR.png"
+      }
+    }
+  },
+  {
+    "id": "21",
+    "nom": "Caitlyn",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Caitlyn.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Tir dans la tête",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Caitlyn_Passive.png"
+      },
+      "q": {
+        "nom": "Pacificateur de Piltover",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CaitlynQ.png"
+      },
+      "w": {
+        "nom": "Piège-Yordle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CaitlynW.png"
+      },
+      "e": {
+        "nom": "Filet de calibre 90",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CaitlynE.png"
+      },
+      "r": {
+        "nom": "Tir chirurgical",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CaitlynR.png"
+      }
+    }
+  },
+  {
+    "id": "22",
+    "nom": "Camille",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine augmentée",
+    "range": "Corps à corps",
+    "region": "Piltover",
+    "annee": 2016,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Camille.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Protection modulable",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Camille_Passive.png"
+      },
+      "q": {
+        "nom": "protocole de précision",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CamilleQ.png"
+      },
+      "w": {
+        "nom": "Balayage tactique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CamilleW.png"
+      },
+      "e": {
+        "nom": "Grappin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CamilleE.png"
+      },
+      "r": {
+        "nom": "Ultimatum Hextech",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CamilleR.png"
+      }
+    }
+  },
+  {
+    "id": "23",
+    "nom": "Cassiopeia",
+    "roles": ["Mage"],
+    "lane": ["Mid", "Top"],
+    "genre": "Féminin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Cassiopeia.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Grâce serpentine",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Cassiopeia_Passive.png"
+      },
+      "q": {
+        "nom": "Bombe nocive",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CassiopeiaQ.png"
+      },
+      "w": {
+        "nom": "Miasmes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CassiopeiaW.png"
+      },
+      "e": {
+        "nom": "Morsure fatale",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CassiopeiaE.png"
+      },
+      "r": {
+        "nom": "Regard de la méduse",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CassiopeiaR.png"
+      }
+    }
+  },
+{
+  "id": "24",
+  "nom": "Cho'Gath",
+  "roles": ["Tank", "Mage"],
+  "lane": "Top",
+  "genre": "Masculin",
+  "especes": "Être du Néant",
+  "range": "Corps à corps",
+  "region": "Le Néant",
+  "annee": 2009,
+  "ressource": "Mana",
+  "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Chogath.png",
+  "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
+  "spells": {
+    "passive": {
+      "nom": "Carnivore",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Chogath_Passive.png"
+    },
+    "q": {
+      "nom": "Rupture",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ChogathQ.png"
+    },
+    "w": {
+      "nom": "Cri sauvage",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ChogathW.png"
+    },
+    "e": {
+      "nom": "Piques vorpales",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ChogathE.png"
+    },
+    "r": {
+      "nom": "Festin",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/ChogathR.png"
+    }
+  }
+},
+{
+  "id": "25",
+  "nom": "Corki",
+  "roles": ["Tireur", "Mage"],
+  "lane": "Bot",
+  "genre": "Masculin",
+  "especes": "Yordle",
+  "range": "À distance",
+  "region": "Bandle City",
+  "annee": 2009,
+  "ressource": "Mana",
+  "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Corki.png",
+  "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
+  "spells": {
+    "passive": {
+      "nom": "Tout feu tout flamme",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Corki_Passive.png"
+    },
+    "q": {
+      "nom": "Ultra méga boule de feu",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CorkiQ.png"
+    },
+    "w": {
+      "nom": "Fu de camp",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CorkiW.png"
+    },
+    "e": {
+      "nom": "Chaud devant !",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CorkiE.png"
+    },
+    "r": {
+      "nom": "Flammes vitales",
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/CorkiR.png"
+    }
+  }
+},
+  {
+    "id": "26",
+    "nom": "Darius",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Darius.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Plaie béante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Darius_Passive.png"
+      },
+      "q": {
+        "nom": "Décimation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DariusQ.png"
+      },
+      "w": {
+        "nom": "Estropiason",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DariusW.png"
+      },
+      "e": {
+        "nom": "Crampon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DariusE.png"
+      },
+      "r": {
+        "nom": "Guillotine Noxienne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DariusR.png"
+      }
+    }
+
+  },
+  {
+    "id": "27",
+    "nom": "Diana",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Targon",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Diana.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Lame sélène",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Diana_Passive.png"
+      },
+      "q": {
+        "nom": "Croissant lunaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DianaQ.png"
+      },
+      "w": {
+        "nom": "Corps célestes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DianaW.png"
+      },
+      "e": {
+        "nom": "Rush lunaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DianaE.png"
+      },
+      "r": {
+        "nom": "Attraction lunaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DianaR.png"
+      }
+    }
+  },
+  {
+    "id": "28",
+    "nom": "Dr. Mundo",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Mutant",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Aucune",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/DrMundo.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Il va où il veut",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/DrMundo_Passive.png"
+      },
+      "q": {
+        "nom": "Scie souillée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DrMundoQ.png"
+      },
+      "w": {
+        "nom": "Défibrillateur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DrMundoW.png"
+      },
+      "e": {
+        "nom": "Contusion",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DrMundoE.png"
+      },
+      "r": {
+        "nom": "Dosage maximal",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DrMundoR.png"
+      }
+    }
+  },
+  {
+    "id": "29",
+    "nom": "Draven",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Noxus",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Draven.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "League of Draven",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Draven_Passive.png"
+      },
+      "q": {
+        "nom": "Hache tournoyante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DravenQ.png"
+      },
+      "w": {
+        "nom": "Pulsion sanguinaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DravenW.png"
+      },
+      "e": {
+        "nom": "Division",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DravenE.png"
+      },
+      "r": {
+        "nom": "Volée mortelle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/DravenR.png"
+      }
+    }
+  },
+  {
+    "id": "30",
+    "nom": "Ekko",
+    "roles": ["Assassin", "Mage"],
+    "lane": ["Mid", "Jungle"],
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2015,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ekko.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Rézonance",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ekko_Passive.png"
+      },
+      "q": {
+        "nom": "Rétrobang",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EkkoQ.png"
+      },
+      "w": {
+        "nom": "Convergence parallèle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EkkoW.png"
+      },
+      "e": {
+        "nom": "Rush déphasé",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EkkoE.png"
+      },
+      "r": {
+        "nom": "Chronofract...",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EkkoR.png"
+      }
+    }
+  },
+  {
+    "id": "31",
+    "nom": "Elise",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Noxus",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Elise.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Reine araignée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Elise_Passive.png"
+      },
+      "q": {
+        "nom": "Neurotoxine / Morsure venimeuse",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EliseQ.png"
+      },
+      "w": {
+        "nom": "Araignée explosive / Frénésie symbiotique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EliseW.png"
+      },
+      "e": {
+        "nom": "Cocon / Suspension",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EliseE.png"
+      },
+      "r": {
+        "nom": "Forme arachnéenne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EliseR.png"
+      }
+    }
+  },
+  {
+    "id": "32",
+    "nom": "Evelynn",
+    "roles": ["Assassin", "Mage"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Démon",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Evelynn.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Ombre démoniaque",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Evelynn_Passive.png"
+      },
+      "q": {
+        "nom": "Piques de haine",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EvelynnQ.png"
+      },
+      "w": {
+        "nom": "Séduction",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EvelynnW.png"
+      },
+      "e": {
+        "nom": "Coup de fouet",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EvelynnE.png"
+      },
+      "r": {
+        "nom": "Faiseuse de veuves",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EvelynnR.png"
+      }
+    }
+  },
+  {
+    "id": "33",
+    "nom": "Ezreal",
+    "roles": ["Tireur", "Mage"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ezreal.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Force grandissante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ezreal_Passive.png"
+      },
+      "q": {
+        "nom": "Tir mystique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EzrealQ.png"
+      },
+      "w": {
+        "nom": "Flux essentiel",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EzrealW.png"
+      },
+      "e": {
+        "nom": "Transfert arcanique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EzrealE.png"
+      },
+      "r": {
+        "nom": "Arc térébrant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/EzrealR.png"
+      }
+    }
+  },
+  {
+    "id": "34",
+    "nom": "Fiddlesticks",
+    "roles": ["Mage", "Support"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Fiddlesticks.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Épouvantable épouvantail",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Fiddlesticks_Passive.png"
+      },
+      "q": {
+        "nom": "Terreur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FiddlesticksQ.png"
+      },
+      "w": {
+        "nom": "Moisson fructueuse",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FiddlesticksW.png"
+      },
+      "e": {
+        "nom": "Fauchaison",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FiddlesticksE.png"
+      },
+      "r": {
+        "nom": "Rafale de corbeaux",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FiddlesticksR.png"
+      }
+    }
+  },
+  {
+    "id": "35",
+    "nom": "Fiora",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Fiora.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Danse de la duelliste",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Fiora_Passive.png"
+      },
+      "q": {
+        "nom": "Fente",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FioraQ.png"
+      },
+      "w": {
+        "nom": "Riposte",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FioraW.png"
+      },
+      "e": {
+        "nom": "Botte secrète",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FioraE.png"
+      },
+      "r": {
+        "nom": "Défi suprême",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FioraR.png"
+      }
+    }
+  },
+  {
+    "id": "36",
+    "nom": "Fizz",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Fizz.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Combattant agile",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Fizz_Passive.png"
+      },
+      "q": {
+        "nom": "Frappe de l'oursin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FizzQ.png"
+      },
+      "w": {
+        "nom": "Trident marin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FizzW.png"
+      },
+      "e": {
+        "nom": "Joueur/Filou",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FizzE.png"
+      },
+      "r": {
+        "nom": "Pêche au gros",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/FizzR.png"
+      }
+    }
+  },
+  {
+    "id": "37",
+    "nom": "Galio",
+    "roles": ["Tank", "Mage"],
+    "lane": ["Mid", "Support"],
+    "genre": "Masculin",
+    "especes": "Colosse",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Galio.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Frappe colossale",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Galio_Passive.png"
+      },
+      "q": {
+        "nom": "Vents de guerre",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GalioQ.png"
+      },
+      "w": {
+        "nom": "Bouclier des Durand",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GalioW.png"
+      },
+      "e": {
+        "nom": "Horion de la justice",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GalioE.png"
+      },
+      "r": {
+        "nom": "Entrée héroïque",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GalioR.png"
+      }
+    }
+  },
+  {
+    "id": "38",
+    "nom": "Gangplank",
+    "roles": ["Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Bilgewater",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Gangplank.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Épreuve du feu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Gangplank_Passive.png"
+      },
+      "q": {
+        "nom": "Pourparlers",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GangplankQ.png"
+      },
+      "w": {
+        "nom": "Guérison du scorbut",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GangplankW.png"
+      },
+      "e": {
+        "nom": "Baril de poudre",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GangplankE.png"
+      },
+      "r": {
+        "nom": "Tir de barrage",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GangplankR.png"
+      }
+    }
+  },
+  {
+    "id": "39",
+    "nom": "Garen",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2009,
+    "ressource": "Aucune",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Garen.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Persévérance",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Garen_Passive.png"
+      },
+      "q": {
+        "nom": "Coup décisive",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GarenQ.png"
+      },
+      "w": {
+        "nom": "Courage",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GarenW.png"
+      },
+      "e": {
+        "nom": "Jugement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GarenE.png"
+      },
+      "r": {
+        "nom": "Justice de Demacia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GarenR.png"
+      }
+    }
+  },
+  {
+    "id": "40",
+    "nom": "Gnar",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2014,
+    "ressource": "Fureur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Gnar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Rage génique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Gnar_Passive.png"
+      },
+      "q": {
+        "nom": "Jet de boomerang/Jet de rocher",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GnarQ.png"
+      },
+      "w": {
+        "nom": "Agitation/Beigne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GnarW.png"
+      },
+      "e": {
+        "nom": "Rebond/Aplatissement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GnarE.png"
+      },
+      "r": {
+        "nom": "GNAR !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GnarR.png"
+      }
+    }
+  },
+  {
+    "id": "41",
+    "nom": "Gragas",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Géant",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Gragas.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Tournée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Gragas_Passive.png"
+      },
+      "q": {
+        "nom": "Fût roulant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GragasQ.png"
+      },
+      "w": {
+        "nom": "Rage d'ivrogne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GragasW.png"
+      },
+      "e": {
+        "nom": "Coup de bidon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GragasE.png"
+      },
+      "r": {
+        "nom": "Fût explosif",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GragasR.png"
+      }
+    }
+  },
+  {
+    "id": "42",
+    "nom": "Graves",
+    "roles": ["Tireur", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Bilgewater",
+    "annee": 2011,
+    "ressource": "Aucune",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Graves.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Nouvelle destinée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Graves_Passive.png"
+      },
+      "q": {
+        "nom": "Terminus",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GravesQ.png"
+      },
+      "w": {
+        "nom": "Écran de fumée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GravesW.png"
+      },
+      "e": {
+        "nom": "Ruée vers l'or",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GravesE.png"
+      },
+      "r": {
+        "nom": "Dégâts collatéraux",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GravesR.png"
+      }
+    }
+  },
+  {
+    "id": "43",
+    "nom": "Gwen",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ixtal",
+    "annee": 2021,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Gwen.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Mille coupures",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Gwen_Passive.png"
+      },
+      "q": {
+        "nom": "Tchac, tchac !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GwenQ.png"
+      },
+      "w": {
+        "nom": "Brume sacrée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GwenW.png"
+      },
+      "e": {
+        "nom": "Élan incisif",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GwenE.png"
+      },
+      "r": {
+        "nom": "Piqûre",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/GwenR.png"
+      }
+    }
+  },
+  {
+    "id": "44",
+    "nom": "Hecarim",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Shadow Isles",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Hecarim.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Galop",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Hecarim_Passive.png"
+      },
+      "q": {
+        "nom": "Carnage",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HecarimQ.png"
+      },
+      "w": {
+        "nom": "Essence de la peur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HecarimW.png"
+      },
+      "e": {
+        "nom": "Charge dévastatrice",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HecarimE.png"
+      },
+      "r": {
+        "nom": "Légion des ombres",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HecarimR.png"
+      }
+    }
+  },
+  {
+    "id": "45",
+    "nom": "Heimerdinger",
+    "roles": ["Mage", "Support"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Heimerdinger.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Affinité Hextech",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Heimerdinger_Passive.png"
+      },
+      "q": {
+        "nom": "Tourelle H-28G Évolution",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HeimerdingerQ.png"
+      },
+      "w": {
+        "nom": "Micro-roquettes Hextech",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HeimerdingerW.png"
+      },
+      "e": {
+        "nom": "Grenade électro-tempête CH-2",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HeimerdingerE.png"
+      },
+      "r": {
+        "nom": "AMÉLIORATION !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HeimerdingerR.png"
+      }
+    }
+  },
+  {
+    "id": "46",
+    "nom": "Hwei",
+    "roles": ["Mage", "Support"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ixtal",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Hwei.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Signature du Visionnaire",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Hwei_Passive.png"
+      },
+      "q": {
+        "nom": "Sujet : Désastres",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HweiQ.png"
+      },
+      "w": {
+        "nom": "Sujet : Sérénités",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HweiW.png"
+      },
+      "e": {
+        "nom": "Sujet : Tourments",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HweiE.png"
+      },
+      "r": {
+        "nom": "Vision de désespoir",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/HweiR.png"
+      }
+    }
+  },
+  {
+    "id": "47",
+    "nom": "Illaoi",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Bilgewater",
+    "annee": 2015,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Illaoi.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Prophétesse d'un dieu ancestral",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Illaoi_Passive.png"
+      },
+      "q": {
+        "nom": "Coup de tentacule",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IllaoiQ.png"
+      },
+      "w": {
+        "nom": "Âpre leçon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IllaoiW.png"
+      },
+      "e": {
+        "nom": "Épreuve de l'esprit",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IllaoiE.png"
+      },
+      "r": {
+        "nom": "Acte de foi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IllaoiR.png"
+      }
+    }
+  },
+  {
+    "id": "48",
+    "nom": "Irelia",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Irelia.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Ferveur ionienne",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Irelia_Passive.png"
+      },
+      "q": {
+        "nom": "Rush fatal",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IreliaQ.png"
+      },
+      "w": {
+        "nom": "Danse de défi",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IreliaW.png"
+      },
+      "e": {
+        "nom": "Duo parfait",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IreliaE.png"
+      },
+      "r": {
+        "nom": "Pointe de l'avant-garde",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IreliaR.png"
+      }
+    }
+  },
+  {
+    "id": "49",
+    "nom": "Ivern",
+    "roles": ["Support", "Mage"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2016,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ivern.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Ami de la forêt",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Ivern_Passive.png"
+      },
+      "q": {
+        "nom": "Enracinement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IvernQ.png"
+      },
+      "w": {
+        "nom": "Main verte",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IvernW.png"
+      },
+      "e": {
+        "nom": "Graine à retardement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IvernE.png"
+      },
+      "r": {
+        "nom": "Marguerite !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/IvernR.png"
+      }
+    }
+  },
+  {
+    "id": "50",
+    "nom": "Janna",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Esprit de l'air",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Janna.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Zéphyr",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Janna_Passive.png"
+      },
+      "q": {
+        "nom": "Vent hurlant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JannaQ.png"
+      },
+      "w": {
+        "nom": "Alizé",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JannaW.png"
+      },
+      "e": {
+        "nom": "Œil du cyclone",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JannaE.png"
+      },
+      "r": {
+        "nom": "Mousson",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JannaR.png"
+      }
+    }
+  },
+  {
+    "id": "51",
+    "nom": "Jarvan IV",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/JarvanIV.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/JarvanIV_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Cadence martiale",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/JarvanIV_Passive.png"
+      },
+      "q": {
+        "nom": "Frappe du dragon",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JarvanIVQ.png"
+      },
+      "w": {
+        "nom": "Égide doré",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JarvanIVW.png"
+      },
+      "e": {
+        "nom": "Étendard demacien",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JarvanIVE.png"
+      },
+      "r": {
+        "nom": "Cataclysme",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JarvanIVR.png"
+      }
+    }
+  },
+  {
+    "id": "52",
+    "nom": "Jax",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Jax.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Acharnement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Jax_Passive.png"
+      },
+      "q": {
+        "nom": "Frappe bondissante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JaxQ.png"
+      },
+      "w": {
+        "nom": "Élargissement",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JaxW.png"
+      },
+      "e": {
+        "nom": "Contre-attaque",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JaxE.png"
+      },
+      "r": {
+        "nom": "Maître d'armes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JaxR.png"
+      }
+    }
+  },
+  {
+    "id": "53",
+    "nom": "Jayce",
+    "roles": ["Combattant", "Tireur"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine augmentée",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Jayce.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Capaciteur Hextech",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Jayce_Passive.png"
+      },
+      "q": {
+        "nom": "Direction le ciel ! / Orbe électrique",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JayceQ.png"
+      },
+      "w": {
+        "nom": "Champ électrique / Hypercharge",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JayceW.png"
+      },
+      "e": {
+        "nom": "Coup foudroyant / Portail d'accélération",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JayceE.png"
+      },
+      "r": {
+        "nom": "Canon Mercury / Marteau Mercury",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JayceR.png"
+      }
+    }
+  },
+  {
+    "id": "54",
+    "nom": "Jhin",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2016,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Jhin.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Murmure",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Jhin_Passive.png"
+      },
+      "q": {
+        "nom": "Grenade dansante",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JhinQ.png"
+      },
+      "w": {
+        "nom": "Floraison mortelle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JhinW.png"
+      },
+      "e": {
+        "nom": "Public captif",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JhinE.png"
+      },
+      "r": {
+        "nom": "Rappel de rideau",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JhinR.png"
+      }
+    }
+  },
+  {
+    "id": "55",
+    "nom": "Jinx",
+    "roles": ["Tireur", "Mage"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Jinx.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Enthousiasme !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Jinx_Passive.png"
+      },
+      "q": {
+        "nom": "Flip flap !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JinxQ.png"
+      },
+      "w": {
+        "nom": "Zap !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JinxW.png"
+      },
+      "e": {
+        "nom": "Pyromâcheurs !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JinxE.png"
+      },
+      "r": {
+        "nom": "Super roquette de la mort !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/JinxR.png"
+      }
+    }
+  },
+  {
+    "id": "56",
+    "nom": "K'Santé",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2022,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/KSante.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KSante_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Instinct intrépide",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KSante_Passive.png"
+      },
+      "q": {
+        "nom": "Coups de ntofo",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KSanteQ.png"
+      },
+      "w": {
+        "nom": "Pour Nazumah !",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KSanteW.png"
+      },
+      "e": {
+        "nom": "Jeu de jambes",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KSanteE.png"
+      },
+      "r": {
+        "nom": "Grand jeu",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KSanteR.png"
+      }
+    }
+  },
+  {
+    "id": "57",
+    "nom": "Kai'Sa",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Le Néant",
+    "annee": 2018,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kaisa.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Seconde peau",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Kaisa_Passive.png"
+      },
+      "q": {
+        "nom": "Pluie d'Icathia",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KaisaQ.png"
+      },
+      "w": {
+        "nom": "Rayon du Néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KaisaW.png"
+      },
+      "e": {
+        "nom": "Surpresseur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KaisaE.png"
+      },
+      "r": {
+        "nom": "Instinct meurtrier",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KaisaR.png"
+      }
+    }
+  },
+  {
+    "id": "58",
+    "nom": "Kalista",
+    "roles": ["Tireur"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Mort-vivant",
+    "range": "À distance",
+    "region": "Shadow Isles",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kalista.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Maintien martial",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Kalista_Passive.png"
+      },
+      "q": {
+        "nom": "Perforation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KalistaQ.png"
+      },
+      "w": {
+        "nom": "Sentinelle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KalistaW.png"
+      },
+      "e": {
+        "nom": "Extirpation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KalistaE.png"
+      },
+      "r": {
+        "nom": "Appel du destin",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KalistaR.png"
+      }
+    }
+
+  },
+  {
+    "id": "59",
+    "nom": "Karma",
+    "roles": ["Mage", "Support"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Karma.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Concentration ardente",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Karma_Passive.png"
+      },
+      "q": {
+        "nom": "Flamme intérieure",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarmaQ.png"
+      },
+      "w": {
+        "nom": "Volonté concentrée",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarmaW.png"
+      },
+      "e": {
+        "nom": "Exaltation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarmaE.png"
+      },
+      "r": {
+        "nom": "Mantra",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarmaR.png"
+      }
+    }
+  },
+  {
+    "id": "60",
+    "nom": "Karthus",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "À distance",
+    "region": "Shadow Isles",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Karthus.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karthus_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Déni de mort",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Karthus_Passive.png"
+      },
+      "q": {
+        "nom": "Dévastation",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarthusQ.png"
+      },
+      "w": {
+        "nom": "Mur de douleur",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarthusW.png"
+      },
+      "e": {
+        "nom": "Souillure",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarthusE.png"
+      },
+      "r": {
+        "nom": "Requiem",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KarthusR.png"
+      }
+    }
+  },
+  {
+    "id": "61",
+    "nom": "Kassadin",
+    "roles": ["Assassin", "Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Transfiguré",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kassadin.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kassadin_0.jpg",
+    "spells": {
+      "passive": {
+        "nom": "Voie du Néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Kassadin_Passive.png"
+      },
+      "q": {
+        "nom": "Lame du Néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KassadinQ.png"
+      },
+      "w": {
+        "nom": "Sphère nulle",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KassadinW.png"
+      },
+      "e": {
+        "nom": "Frappe du Néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KassadinE.png"
+      },
+      "r": {
+        "nom": "Fissure du Néant",
+        "image": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/spell/KassadinR.png"
+      }
+    }
+  },
+  {
+    "id": "62",
+    "nom": "Katarina",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Katarina.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+    "spells":{
+      "passive":{
+        "nom":"Voracité",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Katarina_Passive.png"
+      },
+      "q":{
+        "nom":"Lame rebondissante",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KatarinaQ.png"
+      },
+      "w":{
+        "nom":"Préparation",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KatarinaW.png"
+      },
+      "e":{
+        "nom":"Shunpo",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KatarinaE.png"
+      },
+      "r":{
+        "nom":"Lotus mortel",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KatarinaR.png"
+      }
+    }
+  },
+  {
+    "id": "63",
+    "nom": "Kayle",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Angélique",
+    "range": ["À distance", " Corps à corps"],
+    "region": "Demacia",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kayle.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_0.jpg",
+    "spells":{
+      "passive":{
+        "nom":"Ascension divine",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/Kayle_Passive.png"
+      },
+      "q":{
+        "nom":"Incandescence",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KayleQ.png"
+      },
+      "w":{
+        "nom":"Bénédiction céleste",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KayleW.png"
+      },
+      "e":{
+        "nom":"Lame de feu stellaire",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KayleE.png"
+      },
+      "r":{
+        "nom":"Jugement divin",
+        "image":"https://ddragon.leagueoflegends.com/cdn/14.22.1/img/passive/KayleR.png"
+      }
+    }
+  },
+  {
+    "id": "64",
+    "nom": "Kayn",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2017,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kayn.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg"
+  },
+  {
+    "id": "65",
+    "nom": "Kennen",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kennen.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg"
+  },
+  {
+    "id": "66",
+    "nom": "Kha'Zix",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Être du Néant",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Khazix.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg"
+  },
+  {
+    "id": "67",
+    "nom": "Kindred",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Mixte",
+    "especes": "Esprit",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2015,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kindred.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kindred_0.jpg"
+  },
+  {
+    "id": "68",
+    "nom": "Kled",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2016,
+    "ressource": "Courage",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Kled.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg"
+  },
+  {
+    "id": "69",
+    "nom": "Kog'Maw",
+    "roles": ["Tireur", "Mage"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Être du Néant",
+    "range": "À distance",
+    "region": "Le Néant",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/KogMaw.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KogMaw_0.jpg"
+  },
+  {
+    "id": "70",
+    "nom": "LeBlanc",
+    "roles": ["Assassin", "Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Noxus",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Leblanc.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg"
+  },
+  {
+    "id": "71",
+    "nom": "Lee Sin",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2009,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/LeeSin.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg"
+  },
+  {
+    "id": "72",
+    "nom": "Leona",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Mount Targon",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Leona.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg"
+  },
+  {
+    "id": "73",
+    "nom": "Lillia",
+    "roles": ["Combattant", "Mage"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Ixtal",
+    "annee": 2020,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lillia.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg"
+  },
+  {
+    "id": "74",
+    "nom": "Lissandra",
+    "roles": ["Mage", "Tank"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Créature mythique",
+    "range": "À distance",
+    "region": "Freljord",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lissandra.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg"
+  },
+  {
+    "id": "75",
+    "nom": "Lucian",
+    "roles": ["Tireur", "Combattant"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lucian.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg"
+  },
+  {
+    "id": "76",
+    "nom": "Lulu",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lulu.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg"
+  },
+  {
+    "id": "77",
+    "nom": "Lux",
+    "roles": ["Mage", "Support"],
+    "lane": ["Mid", "Support"],
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Lux.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg"
+  },
+  {
+    "id": "78",
+    "nom": "Malphite",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Colosse",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Malphite.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg"
+  },
+  {
+    "id": "79",
+    "nom": "Malzahar",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Transfiguré",
+    "range": "À distance",
+    "region": "Le Néant",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Malzahar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malzahar_0.jpg"
+  },
+  {
+    "id": "80",
+    "nom": "Maokai",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Esprit de la nature",
+    "range": "Corps à corps",
+    "region": "Shadow Isles",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Maokai.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg"
+  },
+  {
+    "id": "81",
+    "nom": "Master Yi",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/MasterYi.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg"
+  },
+  {
+    "id": "82",
+    "nom": "Milio",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ixtal",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Milio.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Milio_0.jpg"
+  },
+  {
+    "id": "83",
+    "nom": "Miss Fortune",
+    "roles": ["Tireur", "Mage"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Bilgewater",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/MissFortune.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg"
+  },
+  {
+    "id": "84",
+    "nom": "Mordekaiser",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Shadow Isles",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Mordekaiser.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg"
+  },
+  {
+    "id": "85",
+    "nom": "Morgana",
+    "roles": ["Mage", "Support"],
+    "lane": ["Mid", "Support"],
+    "genre": "Féminin",
+    "especes": "Angélique",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Morgana.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg"
+  },
+  {
+    "id": "86",
+    "nom": "Naafiri",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Créature du Néant",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2024,
+    "ressource": "Néant",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Naafiri.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_0.jpg"
+  },
+  {
+    "id": "87",
+    "nom": "Nami",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Sirène",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nami.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg"
+  },
+  {
+    "id": "88",
+    "nom": "Nasus",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Ascendant",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nasus.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg"
+  },
+  {
+    "id": "89",
+    "nom": "Nautilus",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Géant",
+    "range": "Corps à corps",
+    "region": "Bilgewater",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nautilus.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg"
+  },
+  {
+    "id": "90",
+    "nom": "Neeko",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Ixtal",
+    "annee": 2018,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Neeko.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg"
+  },
+  {
+    "id": "91",
+    "nom": "Nidalee",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ixtal",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nidalee.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg"
+  },
+  {
+    "id": "92",
+    "nom": "Nilah",
+    "roles": ["Tireur", "Combattant"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2022,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nilah.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg"
+  },
+  {
+    "id": "93",
+    "nom": "Nocturne",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nocturne.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg"
+  },
+  {
+    "id": "94",
+    "nom": "Nunu & Willump",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Mixte",
+    "especes": "Humaine et créature mythique",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2018,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Nunu.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg"
+  },
+  {
+    "id": "95",
+    "nom": "Olaf",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2010,
+    "ressource": "Rage",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Olaf.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg"
+  },
+  {
+    "id": "96",
+    "nom": "Orianna",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Automate",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Orianna.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg"
+  },
+  {
+    "id": "97",
+    "nom": "Ornn",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Dieu forgeron",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2017,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ornn.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg"
+  },
+  {
+    "id": "98",
+    "nom": "Pantheon",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Targon",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Pantheon.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg"
+  },
+  {
+    "id": "99",
+    "nom": "Poppy",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Yordle",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Poppy.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg"
+  },
+  {
+    "id": "100",
+    "nom": "Pyke",
+    "roles": ["Assassin", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Bilgewater",
+    "annee": 2018,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Pyke.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg"
+  },
+  {
+    "id": "103",
+    "nom": "Qiyana",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ixtal",
+    "annee": 2019,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Qiyana.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg"
+  },
+  {
+    "id": "104",
+    "nom": "Quinn",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Quinn.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg"
+  },
+  {
+    "id": "105",
+    "nom": "Rakan",
+    "roles": ["Support", "Combattant"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Vastaya",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2017,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Rakan.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg"
+  },
+  {
+    "id": "106",
+    "nom": "Rammus",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Rammus.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg"
+  },
+  {
+    "id": "107",
+    "nom": "Rek'Sai",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Être du Néant",
+    "range": "Corps à corps",
+    "region": "Le Néant",
+    "annee": 2014,
+    "ressource": "Fureur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/RekSai.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg"
+  },
+  {
+    "id": "108",
+    "nom": "Rell",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2020,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Rell.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg"
+  },
+  {
+    "id": "109",
+    "nom": "Renata Glasc",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2022,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Renata.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg"
+  },
+  {
+    "id": "110",
+    "nom": "Renekton",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Ascendant",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2011,
+    "ressource": "Rage",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Renekton.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg"
+  },
+  {
+    "id": "111",
+    "nom": "Rengar",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Vastaya",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2012,
+    "ressource": "Fureur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Rengar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg"
+  },
+  {
+    "id": "112",
+    "nom": "Riven",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2011,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Riven.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg"
+  },
+  {
+    "id": "113",
+    "nom": "Rumble",
+    "roles": ["Combattant", "Mage"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "Corps à corps",
+    "region": "Bandle City",
+    "annee": 2011,
+    "ressource": "Chaleur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Rumble.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg"
+  },
+  {
+    "id": "114",
+    "nom": "Ryze",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ryze.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg"
+  },
+  {
+    "id": "115",
+    "nom": "Samira",
+    "roles": ["Tireur", "Combattant"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2020,
+    "ressource": "Style",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Samira.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg"
+  },
+  {
+    "id": "116",
+    "nom": "Sejuani",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sejuani.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg"
+  },
+  {
+    "id": "117",
+    "nom": "Senna",
+    "roles": ["Tireur", "Support"],
+    "lane": ["Bot", "Support"],
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shadow Isles",
+    "annee": 2019,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Senna.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg"
+  },
+  {
+    "id": "118",
+    "nom": "Sett",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Mi-homme, mi-bête",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2019,
+    "ressource": "Ferveur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sett.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg"
+  },
+  {
+    "id": "119",
+    "nom": "Shaco",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Démon",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Shaco.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg"
+  },
+  {
+    "id": "120",
+    "nom": "Shen",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2010,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Shen.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg"
+  },
+  {
+    "id": "121",
+    "nom": "Shyvana",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Mi-humaine, mi-dragon",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Shyvana.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg"
+  },
+  {
+    "id": "122",
+    "nom": "Singed",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Singed.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg"
+  },
+  {
+    "id": "123",
+    "nom": "Sion",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sion.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg"
+  },
+  {
+    "id": "124",
+    "nom": "Sivir",
+    "roles": ["Tireur", "Combattant"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sivir.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg"
+  },
+  {
+    "id": "125",
+    "nom": "Skarner",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "Corps à corps",
+    "region": "Shurima",
+    "annee": 2011,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Skarner.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg"
+  },
+  {
+    "id": "126",
+    "nom": "Smolder",
+    "roles": ["Mage", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Dragon",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Smolder.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Smolder_0.jpg"
+  },
+  {
+    "id": "127",
+    "nom": "Sona",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sona.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg"
+  },
+  {
+    "id": "128",
+    "nom": "Soraka",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Aspect stellaire",
+    "range": "À distance",
+    "region": "Targon",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Soraka.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg"
+  },
+  {
+    "id": "129",
+    "nom": "Swain",
+    "roles": ["Mage", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Noxus",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Swain.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg"
+  },
+  {
+    "id": "130",
+    "nom": "Sylas",
+    "roles": ["Combattant", "Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2019,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Sylas.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg"
+  },
+  {
+    "id": "131",
+    "nom": "Syndra",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Syndra.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg"
+  },
+  {
+    "id": "132",
+    "nom": "Seraphine",
+    "roles": ["Mage", "Support"],
+    "lane": ["Mid", "Support"],
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Piltover",
+    "annee": 2020,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Seraphine.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg"
+  },
+  {
+    "id": "133",
+    "nom": "Tahm Kench",
+    "roles": ["Tank", "Support"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Démon",
+    "range": "Corps à corps",
+    "region": "Runeterra",
+    "annee": 2015,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/TahmKench.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg"
+  },
+  {
+    "id": "134",
+    "nom": "Taliyah",
+    "roles": ["Mage", "Combattant"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2016,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Taliyah.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg"
+  },
+  {
+    "id": "135",
+    "nom": "Talon",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Noxus",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Talon.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg"
+  },
+  {
+    "id": "136",
+    "nom": "Taric",
+    "roles": ["Support", "Tank"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Aspect",
+    "range": "Corps à corps",
+    "region": "Targon",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Taric.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg"
+  },
+  {
+    "id": "137",
+    "nom": "Teemo",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Teemo.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg"
+  },
+  {
+    "id": "138",
+    "nom": "Thresh",
+    "roles": ["Support", "Tank"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "À distance",
+    "region": "Shadow Isles",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Thresh.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg"
+  },
+  {
+    "id": "139",
+    "nom": "Tristana",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Tristana.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg"
+  },
+  {
+    "id": "140",
+    "nom": "Trundle",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Créature mythique",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Trundle.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg"
+  },
+  {
+    "id": "141",
+    "nom": "Tryndamere",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2009,
+    "ressource": "Rage",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Tryndamere.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg"
+  },
+  {
+    "id": "142",
+    "nom": "Twisted Fate",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Bilgewater",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/TwistedFate.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg"
+  },
+  {
+    "id": "143",
+    "nom": "Twitch",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Vermine",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Twitch.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg"
+  },
+  {
+    "id": "144",
+    "nom": "Udyr",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2009,
+    "ressource": "Fureur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Udyr.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg"
+  },
+  {
+    "id": "145",
+    "nom": "Urgot",
+    "roles": ["Combattant", "Tireur"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Chimère",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Urgot.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg"
+  },
+  {
+    "id": "146",
+    "nom": "Varus",
+    "roles": ["Tireur", "Mage"],
+    "lane": "Bot",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Varus.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg"
+  },
+  {
+    "id": "147",
+    "nom": "Vayne",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Demacia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Vayne.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg"
+  },
+  {
+    "id": "148",
+    "nom": "Veigar",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Veigar.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg"
+  },
+  {
+    "id": "149",
+    "nom": "Vel'Koz",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Être du Néant",
+    "range": "À distance",
+    "region": "Le Néant",
+    "annee": 2014,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Velkoz.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg"
+  },
+  {
+    "id": "150",
+    "nom": "Vex",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2021,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Vex.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg"
+  },
+  {
+    "id": "151",
+    "nom": "Vi",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Piltover",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Vi.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg"
+  },
+  {
+    "id": "152",
+    "nom": "Viego",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Shadow Isles",
+    "annee": 2021,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Viego.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg"
+  },
+  {
+    "id": "153",
+    "nom": "Viktor",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine augmentée",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Viktor.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg"
+  },
+  {
+    "id": "154",
+    "nom": "Vladimir",
+    "roles": ["Mage", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "À distance",
+    "region": "Noxus",
+    "annee": 2010,
+    "ressource": "Santé",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Vladimir.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg"
+  },
+  {
+    "id": "155",
+    "nom": "Volibear",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Esprit de la nature",
+    "range": "Corps à corps",
+    "region": "Freljord",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Volibear.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg"
+  },
+  {
+    "id": "156",
+    "nom": "Warwick",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Chimère",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2009,
+    "ressource": "Fureur",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Warwick.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg"
+  },
+  {
+    "id": "157",
+    "nom": "Wukong",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Mi-homme, mi-bête",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Wukong.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Wukong_0.jpg"
+  },
+  {
+    "id": "158",
+    "nom": "Xayah",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Vastaya",
+    "range": "À distance",
+    "region": "Ionia",
+    "annee": 2017,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Xayah.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg"
+  },
+  {
+    "id": "159",
+    "nom": "Xerath",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Ascendant",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Xerath.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg"
+  },
+  {
+    "id": "160",
+    "nom": "Xin Zhao",
+    "roles": ["Combattant", "Assassin"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Demacia",
+    "annee": 2010,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/XinZhao.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg"
+  },
+  {
+    "id": "161",
+    "nom": "Yasuo",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2013,
+    "ressource": "Flux",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Yasuo.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg"
+  },
+  {
+    "id": "162",
+    "nom": "Yone",
+    "roles": ["Assassin", "Combattant"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2020,
+    "ressource": "Flux",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Yone.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg"
+  },
+  {
+    "id": "163",
+    "nom": "Yorick",
+    "roles": ["Combattant", "Tank"],
+    "lane": "Top",
+    "genre": "Masculin",
+    "especes": "Mort-vivant",
+    "range": "Corps à corps",
+    "region": "Shadow Isles",
+    "annee": 2011,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Yorick.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg"
+  },
+  {
+    "id": "164",
+    "nom": "Yunara",
+    "roles": ["Mage", "Support"],
+    "lane": ["Mid", "Support"],
+    "genre": "Féminin",
+    "especes": "Dragon",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2024,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/15.22.1/img/champion/Yunara.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yunara_0.jpg"
+  },
+  {
+    "id": "165",
+    "nom": "Yuumi",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2019,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Yuumi.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg"
+  },
+  {
+    "id": "166",
+    "nom": "Zac",
+    "roles": ["Tank", "Combattant"],
+    "lane": "Jungle",
+    "genre": "Masculin",
+    "especes": "Chimère",
+    "range": "Corps à corps",
+    "region": "Zaun",
+    "annee": 2013,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zac.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg"
+  },
+  {
+    "id": "167",
+    "nom": "Zed",
+    "roles": ["Assassin"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "Corps à corps",
+    "region": "Ionia",
+    "annee": 2012,
+    "ressource": "Énergie",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zed.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg"
+  },
+  {
+    "id": "168",
+    "nom": "Zeri",
+    "roles": ["Tireur", "Assassin"],
+    "lane": "Bot",
+    "genre": "Féminin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Zaun",
+    "annee": 2022,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zeri.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg"
+  },
+  {
+    "id": "169",
+    "nom": "Ziggs",
+    "roles": ["Mage"],
+    "lane": "Mid",
+    "genre": "Masculin",
+    "especes": "Yordle",
+    "range": "À distance",
+    "region": "Bandle City",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Ziggs.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg"
+  },
+  {
+    "id": "170",
+    "nom": "Zilean",
+    "roles": ["Support", "Mage"],
+    "lane": "Support",
+    "genre": "Masculin",
+    "especes": "Humaine",
+    "range": "À distance",
+    "region": "Shurima",
+    "annee": 2009,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zilean.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg"
+  },
+  {
+    "id": "171",
+    "nom": "Zoé",
+    "roles": ["Mage", "Assassin"],
+    "lane": "Mid",
+    "genre": "Féminin",
+    "especes": "Aspect stellaire",
+    "range": "À distance",
+    "region": "Targon",
+    "annee": 2017,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zoe.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg"
+  },
+  {
+    "id": "172",
+    "nom": "Zyra",
+    "roles": ["Mage", "Support"],
+    "lane": "Support",
+    "genre": "Féminin",
+    "especes": "Plante démoniaque",
+    "range": "À distance",
+    "region": "Runeterra",
+    "annee": 2012,
+    "ressource": "Mana",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/Zyra.png",
+    "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg"
+  }
+
+]

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOLDLE - Splash Art</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="splash.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <a href="index.html"><img src="/img/logo.png" alt="Logo LOLDLE" class="logo"></a>
+    </div>
+    <p class="subtitle"><a href="roadmap.html" class="no-underline">Devine le champion de League of Legends</a></p>
+  </header>
+
+  <!-- Game Modes Bar -->
+  <nav class="modes-bar">
+    <a href="devinette.html"><button class="mode">Devinette</button></a>
+    <a href="citations.html"><button class="mode">Citations</button></a>
+    <a href="splash.html"><button class="mode active">Splash Art</button></a>
+    <button class="mode">Spells</button>
+    <button class="mode">Items</button>
+    <button class="mode">Sudoku</button>
+  </nav>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="attempts-badge">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M12 6v6l4 2"></path>
+      </svg>
+      <span id="attemptsDisplay">Tentatives: 0</span>
+    </div>
+
+    <div class="actions">
+      <button class="btn" id="statsBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+          <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+          <path d="M4 22h16"></path>
+          <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+          <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+          <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+        </svg>
+        Stats
+      </button>
+      <button class="btn" id="newGameBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+        Nouveau
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Game -->
+  <main class="main">
+    <div class="game-container">
+      <!-- Splash Art Container -->
+      <div class="splash-container" id="splashContainer">
+        <img id="splashImage" src="" alt="Splash Art" class="splash-image">
+        <div class="blur-overlay" id="blurOverlay"></div>
+      </div>
+
+      <!-- Hint Button -->
+      <div class="hint-section">
+        <button class="hint-button" id="hintButton">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 8px;">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+          </svg>
+          Réduire le flou (1 tentative)
+        </button>
+        <div class="hint-info" id="hintInfo">
+          <span>Indices utilisés: <strong id="hintsUsed">0</strong> / 3</span>
+        </div>
+      </div>
+
+      <!-- Search Container -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input"
+          placeholder="🔍 Rechercher un champion..." 
+          autocomplete="off"
+        >
+        <div id="searchSuggestions" class="suggestions hidden"></div>
+      </div>
+
+      <!-- Result Message -->
+      <div id="resultMessage" class="win-message hidden"></div>
+    </div>
+  </main>
+
+  <!-- Celebration Effect -->
+  <div id="celebration" class="celebration hidden">🎊</div>
+
+  <!-- Stats Modal -->
+  <div id="statsModal" class="stats-modal hidden">
+    <div class="stats-content">
+      <div class="stats-header">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+          <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+          <path d="M4 22h16"></path>
+          <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+          <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+          <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+        </svg>
+        Statistiques - Splash Art
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value" id="statsPlayed">0</div>
+          <div class="stat-label">Parties</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statsWon">0</div>
+          <div class="stat-label">Victoires</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statsStreak">0</div>
+          <div class="stat-label">Série</div>
+        </div>
+      </div>
+      <div class="win-rate">
+        Taux de réussite: <span id="winRate">0%</span>
+      </div>
+      <button class="btn" id="closeStatsBtn" style="width: 100%; justify-content: center;">
+        Fermer
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Créé par Wiralab</p>
+  </footer>
+
+  <script src="script/splash.js"></script>
+</body>
+</html>
